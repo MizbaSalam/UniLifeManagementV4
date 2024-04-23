@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "v2unilifemanagement",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
