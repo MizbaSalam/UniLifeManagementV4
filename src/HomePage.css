@@ -1,0 +1,135 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+/*  background-size: cover;*/
+  padding: 20px;
+  
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+
+}
+
+
+/*new code added by mizba for Version3 */
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Adjusted for better contrast */
+  color: white; /* Light text for better readability */
+  padding: 20px; /* add some padding */
+  border-radius: 10px; /* optional, for rounded corners */
+  margin-bottom: 20px;
+}
+
+.custom-calendar {
+  width: 100%;
+  max-width: 1500px; /* Adjust the size as needed */
+  /* Add more styling here */
+}
+
+.blur {
+  filter: blur(8px);
+}
+
+
+.top-bar {
+  display: flex; /* Use flexbox to lay out children */
+  justify-content: space-between; /* Spread out the children evenly */
+  align-items: center; /* Align items vertically */
+  padding: 0.5rem 1rem;
+  background-color: #000; /* Or any color you prefer for the bar */
+  color: white; /* Adjust text color accordingly */
+}
+
+  
+/* You may need to adjust individual item styles as well */
+.top-bar .react-pro-sidebar .pro-menu-item {
+  display: inline-block; /* Display menu items inline */
+  margin-right: 20px; /* Add some space between menu items */
+}
+
+/* Ensure the content div has a top margin to not overlap with the new top bar */
+.content {
+  flex-grow: 1;
+ /* background-image: url('homepage.jpeg');*/
+ background-color:rgb(227, 233, 242);
+  background-size: cover;
+  padding: 20px;
+}
+
+
+/* Rest of the CSS remains unchanged */
+
+/* Add more styles as needed */
+.home-container {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 100vh;
+}
+
+
+
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 0.5rem;
+}
+
+.menu-bar .pro-menu-item {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+}
+
+.top-bar .menu-item {
+  margin: 0 20px; /* Add horizontal margin between menu items */
+}
+/* Rest of the CSS */
+
+.header img {
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* This will style your Add Task button */
+.add-task-btn {
+  margin-left: 8px; /* Adjust spacing as needed */
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 5px 10px; /* Adjust padding as needed */
+  cursor: pointer;
+}
+
+/* This will style your Remove Task button */
+.remove-task-btn {
+  margin-left: 8px; /* Adjust spacing as needed */
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 5px 10px; /* Adjust padding as needed */
+  cursor: pointer;
+}
+
+/* Style list items in the todo list */
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px; /* Adjust margin as needed */
+}
+
+/* If you want to style your input similarly */
+.todo-list input[type="text"] {
+  padding: 5px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

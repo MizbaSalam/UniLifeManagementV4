@@ -1,0 +1,104 @@
+.connectMain {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color:rgb(227, 233, 242);
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: center; /* Center the menu bar horizontally */
+  align-items: center; /* Center the menu bar vertically */
+  background-color: #333; /* Dark background for better contrast */
+  padding: 1rem; /* Increased padding */
+  width: 100%;
+  font-size: 1.5rem; /* Increase the font size to make icons bigger */
+}
+
+.menu-bar .pro-menu-item {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  margin: 0 1rem; /* Light text for visibility */
+}
+
+.connectPage {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center-align the contents */
+  justify-content: center; /* Center contents vertically */
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0; /* Add padding on top and bottom */
+  width: 100%; /* Use the full width */
+}
+
+.feedContainer {
+  width: 100%; /* Use the full width */
+}
+
+.postFeed {
+  max-width: 800px; /* Increased width for better use of space */
+  margin: 0 auto; /* Center the feed container */
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+  margin-bottom: 30px;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post p {
+  font-size: 1rem;
+  color: #333;
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+/* Additional styles for responsiveness and layout adjustment */
+@media (max-width: 768px) {
+  .feedContainer, .postFeed {
+    width: 90%; /* Slightly reduce width for smaller screens */
+    margin: 0 5%;
+  }
+}
+
+/* Ensure buttons are styled consistently */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for uploader and other text elements */
+.uploaderId {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.menu-bar .pro-menu-item svg {
+  font-size: 24px; /* Increase the font size to make icons bigger */
+  vertical-align: middle; /* Aligns the icon vertically with the text if there is any */
+}
+
+/* Additional adjustments as needed */

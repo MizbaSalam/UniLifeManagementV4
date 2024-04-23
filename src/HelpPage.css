@@ -1,0 +1,66 @@
+.contact-me-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px; /* Add padding to prevent content from touching the edges */
+  background-color:rgb(227, 233, 242);}
+
+.contact-me-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 0.5em; /* Give some space below the h1 */
+}
+
+.contact-me-container p {
+  text-align: center;
+  margin-bottom: 1em; /* Standardize margin for bottom spacing */
+}
+
+.contact-me-container form {
+  display:grid;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%; /* Make the form take up 100% of its parent's width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for depth */
+}
+
+.contact-me-container label {
+  margin-bottom: 5px;
+}
+
+.contact-me-container input,
+.contact-me-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-me-container button {
+  background-color:grey;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contact-me-container button:hover {
+  background-color: #0056b3;
+}
+
+.thank-you-message {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact-me-container form {
+    width: 90%; /* Make form wider on smaller screens */
+  }
+}
+
+.contact{
+  justify-content: center; /* This will center the children vertically */
+  align-items: center; /* This will center the children horizontally */
+}
